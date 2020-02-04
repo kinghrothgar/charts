@@ -246,6 +246,11 @@ controller:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
 
+    sessionAffinity: ""
+    sessionAffinityConfig:
+      clientIP:
+        timeoutSeconds: ""
+
     enableHttp: true
     enableHttps: true
 
